@@ -156,7 +156,7 @@ Now load the variables: ```source .bashrc```.
 ### 3. start the simulation
 Now we are ready to start the simulation.
 
-**Remember that you need the same model on both device**. Make sure to be on the directoty with all the models you need; for example I simply want to simulate a default gazebo world like ```shapes.sdf``` and use this commands:
+First of all temporaly disable the firewall on both devices with ```sudo ufw disable``` and **Remember that you need the same model on both device**. Make sure to be on the directory with all the models you need; for example I simply want to simulate a default gazebo world like ```shapes.sdf``` and use this commands:
 
 **On jetson**: ```gz sim -s -r -v4 shapes.sdf``` 
 The -v4 parameter is not mandatory, it shows additional information and is useful for troubleshooting.
