@@ -148,7 +148,7 @@ echo 'export GZ_IP=YOUR_IP' >> .bashrc
 
 echo 'export GZ_PARTITION=sim' >> .bashrc
 
-echo 'GZ_RELAY=YOUR_IP' >> .bashrc\
+echo 'export GZ_RELAY=YOUR_IP' >> .bashrc
 ```
 
 Now load the variables: ```source .bashrc```.
